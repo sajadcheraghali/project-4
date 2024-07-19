@@ -1,0 +1,162 @@
+#logo{
+    display: flex;
+    margin: auto;
+}
+@media (max-width: 800px) {
+    #link,#search,#doctor{
+        display: flex;
+        flex-direction: column;
+    }
+    #doctor{
+        padding-bottom: 400px;
+        padding-top: 50px;
+    }
+    #box-3{
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+ }
+#sidebar{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    width: 100%;
+}
+#link{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+#search{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+#inputbar,#buttonbar{
+height: 40px;
+margin-top: 10px;
+border-radius: 10px;
+cursor: pointer;
+text-align: center;
+}
+#buttonbar{
+    width: 90px;
+}
+#buttonbar:hover{
+    background-color: #3e35d5;
+}
+#hospitelbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#hospitel{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+}
+#text{
+    width: 600px;
+    height: 300px;
+    background-color: aquamarine;
+    position: relative;
+    left: -40px;
+    top: 30px;
+    border-radius: 20px;
+}
+#text-1-1{
+    font-size: 30px;
+    padding-left: 10px;
+}
+#text-1{
+    display: flex;
+    align-items: center;
+}
+#text-2{
+    font-size: 20px;
+    padding-left: 20px;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 90px; 
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    transition: 500ms;
+}
+#profile:hover{
+    background-color: blueviolet;
+}
+#box-3{
+    margin-top: 300px;
+    background-color: #90A4AE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 180px;
+    border-radius: 20px;
+}
+#text-3{
+    margin-left: 50px;
+}
+#heading-3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#button-3{
+     margin: auto;
+     width: 120px;
+     height: 40px;
+     background-color: blueviolet;
+     border-radius: 10px;
+     cursor: pointer;
+}
+#doctor{
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+#doctor-1,#doctor-2,#doctor-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 7px 7px 4px #BDBDBD;
+    border: solid 1px;
+}
+#doct-1-picture,#doct-2-picture,#doct-3-picture{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+#doct-1-button,#doct-2-button,#doct-3-button{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#text-4{
+    height: 250px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(90deg,#3e35d5,#d1cff0);
+}
+#heading-4{
+      margin-top: 70px;
+      font-size: 30px;
+}
